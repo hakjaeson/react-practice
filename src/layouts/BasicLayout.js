@@ -1,8 +1,7 @@
 import React from "react";
-import Footer from "../components/Footer";
 import BasicMenu from "../components/menus/BasicMenu";
 
-//객체 구조 분해 할당
+// 객체 구조 분해 할당
 const BasicLayout = ({ children }) => {
   return (
     <div className="wrap">
@@ -10,7 +9,7 @@ const BasicLayout = ({ children }) => {
         <BasicMenu />
       </header>
       <main>{children}</main>
-      <Footer />
+      <footer>하단</footer>
     </div>
   );
 };
