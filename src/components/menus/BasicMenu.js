@@ -1,6 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-
+import React from "react";
+import { Link } from "react-router-dom";
 const BasicMenu = () => {
   return (
     <nav>
@@ -12,7 +11,10 @@ const BasicMenu = () => {
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/todo">Todo</Link>
+          <Link to="/todo/">Todo</Link>
+        </li>
+        <li>
+          <Link to="/product/">Product</Link>
         </li>
       </ul>
     </nav>
