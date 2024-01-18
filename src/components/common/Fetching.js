@@ -1,7 +1,7 @@
 import React from "react";
 import { ClipLoader } from "react-spinners";
 
-const Loading = () => {
+const Fetching = () => {
   const laodingCss = {
     position: "fixed",
     left: 0,
@@ -21,4 +21,4 @@ const Loading = () => {
   );
 };
 
-export default Loading;
+export default Fetching;
